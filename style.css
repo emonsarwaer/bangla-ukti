@@ -3,6 +3,7 @@ body{
     font-family: "Trirong", serif;
   font-size: 30px;
   text-shadow: 3px 3px 3px #ababab;
+
 }
 h1{
     background-color:DodgerBlue;
@@ -64,24 +65,45 @@ h1{
       }
       section{
         height: 467px;
-      }
-      section{
-        height: 467px;
         padding-bottom: 250px;
       }
-      .md{
-        width: 40%;
-        float: left;
-        margin-left: 4%;
-        padding-left: 2%;
-        margin-right: 4%;
-      }   
-      .md img{
-        width: 100%;
-      }   
       .right{
         background-image: url("dream-bg.png");
         background-repeat: no-repeat;
         background-position: right;
       }
-   
+   p{
+    font-size: 12px;
+    color: rgb(161, 160, 160);   
+   }
+   .hig{
+    font-style: italic;
+    color: orange;
+    font-size: 45px;
+    text-shadow: 3px 3px 3px #ababab; 
+   }
+   .emu{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 65%;
+    width: 40%;
+   }
+   .trd-bg{
+    background-image: url("exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+   }
+   #high{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+   }
+   #web-high{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(35, 1, 128), rgb(138, 4, 131));
+    border-image-slice: 1;
+   }
+   .footer{
+    font-size: 30px;
+    text-align: center;
+   }
