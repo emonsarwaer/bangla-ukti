@@ -5,6 +5,16 @@ body{
   text-shadow: 3px 3px 3px #ababab;
 
 }
+.container{
+display: flex;
+flex: row ;
+max-width: 1200px;
+margin: 0 auto;
+
+}
+@media (max-with:760px) {
+  
+}
 h1{
     background-color:DodgerBlue;
             color: #FFFF00;
@@ -103,7 +113,7 @@ h1{
     border-image: linear-gradient(180deg, rgb(35, 1, 128), rgb(138, 4, 131));
     border-image-slice: 1;
    }
-   .footer{
+   footer{
     font-size: 30px;
     text-align: center;
    }
